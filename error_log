@@ -1,0 +1,10 @@
+[17-Jul-2023 12:07:44 UTC] PHP Warning:  require(D:\xampp\vendor\autoload.php): Failed to open stream: No such file or directory in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 5
+[17-Jul-2023 12:07:44 UTC] PHP Warning:  require(D:\xampp\vendor\autoload.php): Failed to open stream: No such file or directory in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 5
+[17-Jul-2023 12:07:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\vendor\autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 5
+[20-Jul-2023 14:59:01 UTC] PHP Parse error:  Unclosed '{' on line 12 in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 58
+[20-Jul-2023 14:59:27 UTC] PHP Parse error:  Unclosed '{' on line 12 in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 58
+[20-Jul-2023 14:59:34 UTC] PHP Parse error:  Unclosed '{' on line 12 in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 58
+[22-Jul-2023 15:09:11 UTC] PHP Parse error:  Unclosed '{' on line 12 in /home/xtwnzbzd/public_html/wcpm.fourz.tech/mail.php on line 58
