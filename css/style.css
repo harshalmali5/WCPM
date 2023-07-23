@@ -521,7 +521,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     .site-nav .site-navigation .site-menu > li {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
-        font-size: 16px;
+        font-size: 14px;
         padding: 10px 15px;
         color: rgba(255, 255, 255, 0.7);
         display: inline-block;
