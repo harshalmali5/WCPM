@@ -117,12 +117,6 @@ return EvEmitter;
 
 }));
 
-/*!
- * imagesLoaded v4.1.4
- * JavaScript is all like "You images are done yet or what?"
- * MIT License
- */
-
  ( function( window, factory ) { 'use strict';
   // universal module definition
 
