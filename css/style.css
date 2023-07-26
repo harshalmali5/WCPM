@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.8;
   font-size: 16px;
   color: #444444;
@@ -66,7 +66,7 @@ a.text-primary {
   background-color: #e84545 !important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: "Montserrat", sans-serif; }
+  font-family: 'Rubik', sans-serif; }
 
 .btn {
   padding-top: 12px;
@@ -74,7 +74,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 4px;
-  font-size: 14px; }
+  font-size: 15px; }
   .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none;
@@ -671,7 +671,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       border-radius: 50%;
       border: 1px solid #f8f9fa; }
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
-        font-size: 14px;
+        font-size: 15px;
         z-index: 20;
         font-family: "icomoon";
         content: "\e313";
@@ -695,7 +695,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       width: 100%; }
       .site-mobile-menu .site-nav-wrap > li > a {
         padding-left: 20px;
-        font-size: 14px; }
+        font-size: 15px; }
       .site-mobile-menu .site-nav-wrap > li > ul {
         padding: 0;
         margin: 0;
@@ -704,14 +704,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
           display: block; }
           .site-mobile-menu .site-nav-wrap > li > ul > li > a {
             padding-left: 40px;
-            font-size: 14px; }
+            font-size: 15px; }
           .site-mobile-menu .site-nav-wrap > li > ul > li > ul {
             padding: 0;
             margin: 0; }
             .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li {
               display: block; }
               .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li > a {
-                font-size: 14px;
+                font-size: 15px;
                 padding-left: 60px; }
 
 .sticky-wrapper {
@@ -1251,7 +1251,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       font-size: 16px;
       font-weight: 700; }
     .how-it-works .step p {
-      font-size: 14px; }
+      font-size: 15px; }
 
 .trusted-by-companies {
   padding: 0rem 0 4rem 0;
@@ -1266,37 +1266,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.4);
   position: relative;
   z-index: 2; }
-
-.pricing {
-  text-align: center; }
-  .bg-white .pricing .price > span {
-    color: #000000; }
-    .bg-white .pricing .price > span > span {
-      font-size: 3rem;
-      color: #000000; }
-  .bg-white .pricing ul {
-    text-align: left; }
-    .bg-white .pricing ul li {
-      color: #000000;
-      margin-bottom: 20px; }
-      .bg-white .pricing ul li:before {
-        color: #000000 !important; }
-    .bg-white .pricing ul li.remove {
-      text-decoration: line-through;
-      color: rgba(0, 0, 0, 0.4); }
-      .bg-white .pricing ul li.remove:before {
-        color: rgba(0, 0, 0, 0.4); }
-  .pricing .price > span > span {
-    font-size: 3rem; }
-  .pricing ul {
-    text-align: left; }
-    .pricing ul li {
-      margin-bottom: 20px; }
-    .pricing ul li.remove {
-      text-decoration: line-through;
-      color: rgba(0, 0, 0, 0.4); }
-      .pricing ul li.remove:before {
-        color: rgba(0, 0, 0, 0.4); }
 
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
@@ -1319,7 +1288,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   position: relative;
   text-transform: uppercase;
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500; }
   @media (max-width: 736px) {
     .portfolio-area .filters ul li {
@@ -1375,7 +1344,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   text-align: center; }
 
 .portfolio-area .filters-content .item .p-inner .cat {
-  font-size: 13px; }
+  font-size: 14px; }
 
 .portfolio-area .filters-content .item img {
   width: 100%; }
@@ -1844,103 +1813,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     background-position: left top;
     background-repeat: no-repeat; }
 
-.pricing-section {
-  padding: 70px 0; }
-  @media (max-width: 991.98px) {
-    .pricing-section {
-      padding: 30px 0; } }
-  .pricing-section .save-percent {
-    font-size: 10px;
-    background: #e84545;
-    padding: 4px 10px;
-    font-weight: 700;
-    border-radius: 30px;
-    color: #ffffff; }
-  .pricing-section .period {
-    font-size: 14px; }
-  .pricing-section .period-toggle {
-    width: 100px;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 30px;
-    background: #ccc;
-    position: relative;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease; }
-    .pricing-section .period-toggle:before {
-      -webkit-transition: .3s all ease;
-      -o-transition: .3s all ease;
-      transition: .3s all ease;
-      content: "";
-      position: absolute;
-      left: 1px;
-      height: 28px;
-      width: 28px;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      border-radius: 50%;
-      background: #ffffff;
-      -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1); }
-    .pricing-section .period-toggle.active:before {
-      left: 71px; }
-  .pricing-section .pricing-item {
-    padding: 70px 30px;
-    text-align: center; }
-    .pricing-section .pricing-item h3 {
-      font-weight: 700;
-      font-size: 24px;
-      margin-bottom: 30px; }
-    .pricing-section .pricing-item .description {
-      margin-bottom: 20px; }
-    .pricing-section .pricing-item.active {
-      background: #ffffff;
-      -webkit-box-shadow: 0 10px 30px -7px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 10px 30px -7px rgba(0, 0, 0, 0.1);
-      border-radius: 7px; }
-      .pricing-section .pricing-item.active h3 {
-        color: #e84545; }
-    .pricing-section .pricing-item ul {
-      text-align: left; }
-      .pricing-section .pricing-item ul li {
-        line-height: 1.4;
-        margin-bottom: 8px; }
-    .pricing-section .pricing-item .price-wrap {
-      display: block;
-      color: #e84545;
-      font-weight: 700;
-      font-size: 30px;
-      line-height: 1.5; }
-      .pricing-section .pricing-item .price-wrap > div {
-        height: 46px;
-        overflow: hidden; }
-      .pricing-section .pricing-item .price-wrap > .price > div {
-        -webkit-transition: .3s all ease;
-        -o-transition: .3s all ease;
-        transition: .3s all ease; }
-    .pricing-section .pricing-item .period-wrap {
-      font-size: 16px; }
-      .pricing-section .pricing-item .period-wrap .period {
-        height: 27px;
-        line-height: 27px;
-        overflow: hidden;
-        font-size: 16px; }
-        .pricing-section .pricing-item .period-wrap .period > div {
-          -webkit-transition: .3s all ease;
-          -o-transition: .3s all ease;
-          transition: .3s all ease; }
-    .pricing-section .pricing-item.yearly .price-wrap > .price > div {
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
-    .pricing-section .pricing-item.yearly .period-wrap > .period > div {
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
 
 .unit-4 .unit-4-icon {
   position: relative; }
@@ -1983,7 +1855,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   border-radius: 50%; }
 
 .testimonial-item .author {
-  line-height: 1.4; }
+  line-height: 1.5; }
   .testimonial-item .author cite {
     font-weight: 700;
     font-style: normal; }
