@@ -1380,6 +1380,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   border-radius: 5px;
   overflow: hidden; }
   .isotope-card > a {
+    border-radius: 15px;
     overflow: hidden;
     position: relative;
     display: block; }
@@ -1400,6 +1401,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       transition: .3s all ease;
       background: rgba(0, 0, 0, 0.5); }
     .isotope-card > a img {
+      border-radius: 15px;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease;
