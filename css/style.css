@@ -3,10 +3,10 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik','Open-sans', sans-serif;
   line-height: 1.8;
   font-size: 16px;
-  color: #444444;
+  color: #1C2342;
   background: #ffffff;
   overflow-x: hidden; }
   body:before {
@@ -66,7 +66,7 @@ a.text-primary {
   background-color: #e84545 !important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: 'Rubik', sans-serif; }
+  font-family: 'Rubik','Open-sans', sans-serif; }
 
 .btn {
   padding-top: 12px;
@@ -334,7 +334,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #1C2342;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -679,7 +679,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 15px;
         z-index: 20;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Rubik','Open-sans', sans-serif;
         content: "\e313";
         position: absolute;
         top: 50%;
@@ -1064,7 +1064,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       left: 0;
       font-size: 20px;
       top: -.3rem;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Rubik','Open-sans', sans-serif;
       content: "\e5ca";
       position: absolute; }
   .ul-check.white li:before {
@@ -1243,7 +1243,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       border-radius: 50%;
       background: #e84545; }
       .how-it-works .step .icon-wrap > span {
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Rubik','Open-sans', sans-serif;
         font-size: 18px;
         font-weight: bold;
         color: #ffffff;
@@ -1683,7 +1683,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .article .share {
     top: 20px; }
     .article .share h3 {
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Rubik','Open-sans', sans-serif;      
       font-size: 12px; }
       @media (max-width: 991.98px) {
         .article .share h3 {
