@@ -1759,6 +1759,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .hero-slant.custom-page > .container > .row {
   height: 55vh;
 }
+@media (max-width: 768px) {
+  .hero-slant.custom-page, .hero-slant.custom-page > .container > .row {
+    height: 30vh;
+}
+
+}
 /*---------End Of Other Pages Background Img Css -------------*/ 
 
 .hero-slant {
@@ -1869,7 +1875,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     font-style: normal; }
 
 .testimonial-item blockquote {
-  font-size: 20px;
+  font-size: 16px;
   color: #000000; }
   .testimonial-item blockquote, .testimonial-item blockquote *:last-child {
     margin-bottom: 0; }
