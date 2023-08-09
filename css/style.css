@@ -896,11 +896,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       display: grid;
       position: relative;
       -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr); }
+      grid-template-columns: repeat(65, 1fr); }
     .section-stack .image-stack__item--bottom {
       grid-column: 4 / -1;
       -ms-grid-row: 1;
       grid-row: 1;
+      width: 400px;
       width: 100%; }
     .section-stack .image-stack__item--top {
       -ms-grid-row: 1;
