@@ -896,7 +896,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       display: grid;
       position: relative;
       -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(65, 1fr); }
+      grid-template-columns: repeat(12, 1fr); }
     .section-stack .image-stack__item--bottom {
       grid-column: 4 / -1;
       -ms-grid-row: 1;
