@@ -901,7 +901,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       grid-column: 4 / -1;
       -ms-grid-row: 1;
       grid-row: 1;
-      width: 400px;
       width: 100%; }
     .section-stack .image-stack__item--top {
       -ms-grid-row: 1;
@@ -2302,5 +2301,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .footer .footer-content .footer-links ul a:hover {
     color: #fff;
   }
+  
+  /* Mobile View */
   
 
