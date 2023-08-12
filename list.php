@@ -25,8 +25,8 @@
   <title>About Us</title>
 </head>
 <body>
-<section class="property" id="property">
-        <div class="container" style="width: 100%; height: 100%;">
+<section class="property" id="property" style="margin-top: -10%; margin-bottom: -80%">
+        <div class="container" style="width: 80%;">
           <ul class="property-list has-scrollbar">
 <?php
 // Establish a database connection (assuming MySQL)
@@ -43,7 +43,7 @@ if ($conn->connect_error) {
 }
 
 // Construct the query
-$sql = "SELECT `id`, `name`, `description`, `img_path`, `bed`, `bath`, `sq_ft`, `address`,`rent` FROM `listing` WHERE 1";
+$sql = "SELECT `id`, `name`, `description`, `img_path`, `bed`, `bath`, `sq_ft`, `address`,`rent`, `link` FROM `listing` WHERE 1";
 
 // Execute the query
 $result = $conn->query($sql);
@@ -61,11 +61,12 @@ if ($result->num_rows > 0) {
         $sq_ft = $row["sq_ft"];
         $address = $row["address"];
         $rent = $row["rent"];
+        $link = $row["link"];
     
     echo '<li>
               <div class="property-card" style="width: 100%; height: 100%">
                 <figure class="card-banner">
-                  <a href="#">';
+                  <a href="'.$link.' target="_parent"">';
                   
                   echo '<img src="'.$img_path.'" alt="New Apartment Nice View" class="w-100">';
                   echo '
@@ -77,17 +78,9 @@ if ($result->num_rows > 0) {
                       
                       echo '<address>'.$address.'</address>';
                       echo '</button>
-                    <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
-                      <span>4</span>
-                    </button>
-                    <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
-                      <span>2</span>
-                    </button>
                   </div>
                 </figure>
-                <div class="card-content">
+                <div class="card-content" style="width: 100%; height: 100%;">
                   <div class="card-price">';
                     
                     echo '<strong>$'.$rent.'</strong>/Month';
@@ -95,7 +88,7 @@ if ($result->num_rows > 0) {
                   </div>
                   <h3 class="h3 card-title">';
                     
-                    echo '<a href="#">'.$name.'</a>';
+                    echo '<a href="'.$link.' target="_parent"">'.$name.'</a>';
                     echo '
                   </h3>';
                   
@@ -135,8 +128,10 @@ if ($result->num_rows > 0) {
 
   ?>
   </ul>
+  
         </div>
       </section>
+      
 
     
   </body>
