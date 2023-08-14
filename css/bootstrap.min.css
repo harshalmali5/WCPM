@@ -8179,6 +8179,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .w-50 {
+    margin-left: 25%;
     width: 50% !important
 }
 
